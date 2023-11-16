@@ -85,7 +85,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
                              
                     <div className='flex h-full flex-col  w-full flex-grow gap-4 rounded-2xl bg-white  p-4 shadow-md md:max-w-3xl lg:justify-center'>
                       {icon}
-                      <div className='flex w-full flex-col items-start text-start'>
+                      <div className='flex w-full flex-col items-center justify-center '>
                         <h3 className='flex items-center gap-2 text-lg font-semibold'>{title}</h3>
                         <p className='text-sm text-muted-foreground'>{body}</p>
                       </div>
