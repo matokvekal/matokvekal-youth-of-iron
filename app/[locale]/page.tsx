@@ -19,7 +19,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
   const t = await getI18n();
   const shareT = await getScopedI18n(Intent.Share);
   const reportT = await getScopedI18n(Intent.Report);
-
+  // 0CFFA8
   const buttons = [
     {
       title: shareT('homepage_card_title'),
@@ -27,8 +27,8 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       url: `/${Intent.Share}/${Platform.Twitter}`,
       id: 'main_reply',
       icon: (
-        <div className='flex aspect-square h-full w-32 flex-grow items-center justify-center rounded-xl bg-blue-100 py-6'>
-          <Image alt='Thumbs up emoji' src='/thumbs_up_animated.png' width={42} height={42} />
+        <div className='flex w-full flex-col  h-full w-32 flex-grow items-center justify-center rounded-xl bg-blue-100 py-6'>
+          <Image alt='Thumbs up emoji' src='/iconTumbUp.png' width={42} height={42} />
         </div>
       ),
     },
@@ -79,9 +79,11 @@ export default async function Home({ params: { locale } }: { params: { locale: s
               <p className='mx-auto   mb-9 max-w-[500px] px-4  text-lg'>{t('description')}</p>
 
               <div className='flex w-full flex-grow flex-col gap-4 md:max-w-3xl lg:flex-row lg:justify-center'>
+
                 {buttons.map(({ url, title, body, id, icon }) => (
                   <Link id={id} key={url} className='w-full' href={url}>
-                    <div className='flex h-full  w-full flex-grow gap-4 rounded-2xl bg-white  p-4 shadow-md md:max-w-3xl lg:justify-center'>
+                             
+                    <div className='flex h-full flex-col  w-full flex-grow gap-4 rounded-2xl bg-white  p-4 shadow-md md:max-w-3xl lg:justify-center'>
                       {icon}
                       <div className='flex w-full flex-col items-start text-start'>
                         <h3 className='flex items-center gap-2 text-lg font-semibold'>{title}</h3>

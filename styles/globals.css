@@ -76,7 +76,9 @@
     --haze-900: #343a46;
     --haze-950: #23272e;
 
-    --background: var(--haze-50);
+    --Ri3-background:#00F2EA;
+
+    --background: var(--Ri3-background);
     --foreground: var(--mirage-950);
 
     --primary: var(--ultramarine-900);
