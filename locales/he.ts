@@ -1,0 +1,147 @@
+export default {
+  header_title: 'מילות ברזל',
+  share_page_header_subtitle: 'נלחמים בזירה הדיגיטלית',
+  report_page_header_subtitle: 'נלחמים בזירה הדיגיטלית',
+  header_body: 'מדיה דיגיטלית שיקרית שולטת בעיצוב הנרטיב האנטי ישראלי, לכן יצרנו את מילות ברזל',
+  share_page_alert_title: 'מפיצים פוסטים פרו-ישראליים ברשתות החברתיות',
+  report_page_alert_title: 'מדווחים על פוסטים אנטי-ישראליים ברשתות החברתיות',
+  share_page_alert_body: 'הצטרפו למאמץ ההסברה הישראלי בקליק והפיצו את התוכן מפה',
+  report_page_alert_body: 'הצטרפו למאמץ ההסברה הישראלי בקליק ודווחו על התוכן מפה',
+  where_to_publish: 'היכן לפרסם?',
+  copy_to_clipboard: 'לחץ/י כאן כדי להעתיק את הטקסט',
+  copied_to_clipboard: 'התגובה הועתקה בהצלחה',
+  'post_preview.title': 'הפוסט הזה מזוייף:',
+  title: 'מילות ברזל',
+  description: 'הגבירו את הקול של ישראל ברשתות החברתיות בקליק - כל אחד יכול!',
+  recruit_badge: 'הצטרפו אלינו להפצת האמת ←',
+  share_page_action_btn: 'הגב/י',
+  report_page_action_btn: 'דווח/י',
+  reply_on_post_btn: 'נותנים בראש',
+  start_over_btn: 'הגב/י על פוסט נוסף',
+  new_post_btn: 'פוסט נוסף',
+  footer_join_us_link: 'הצטרפו אלינו',
+  footer_share_feedback_link: 'השאירו משוב',
+  share_page_kudos_cta: 'פוסט נוסף לחיזוק',
+  report_page_kudos_cta: 'פוסט נוסף לדיווח',
+  share_page_kudos_subtitle: '.מצאנו עבורכם עוד תוכן להפיץ, לחצו כאן',
+  report_page_kudos_subtitle: '.מצאנו עבורכם עוד תוכן לדיווח, לחצו כאן',
+  step_one_title: 'תגובה מאומתת שלך',
+  report_do_not_show_again_btn: 'הבנתי, אל תציגו את זה שוב',
+  report_go_to_post_btn: 'מעבר לפוסט בטוויטר',
+  report_first_step: 'פתחו את הפוסט המסית באמצעות הכפתור למטה.',
+  report_second_step: 'לחצו על האייקון (שלוש נקודות) הממוקם בחלק העליון של הפוסט.',
+  report_third_step: "בחרו 'דיווח על פוסט'.",
+  report_forth_step: "בחרו 'ישויות אלימות ורוויות שנאה' בתור סיבה ולחצו על הבא.",
+  report_fifth_step: "לחצו 'סיום'.",
+  report_back_btn: 'חזרה',
+  report_title: 'איך לדווח על פוסט בטוויטר',
+  homepape_share_card_title: 'שתף תוכן',
+  homepape_report_card_title: 'דווח על תוכן',
+  platform_selection_title: 'איפה תרצו {intent} את התוכן?',
+  share_intent: 'לשתף',
+  report_intent: 'לדווח',
+  comming_soon: 'בקרוב',
+  twitter: 'טוויטר',
+  facebook: 'פייסבוק',
+  instagram: 'אינסטגרם',
+  tiktok: 'טיקטוק',
+  dialog_cancel_btn: 'ביטול',
+
+  'share.header_select_label': 'לשתף תוכן',
+  'report.header_select_label': 'לדווח על תוכן',
+
+  'share.page_header_subtitle': 'נלחמים בזירה הדיגיטלית',
+  'report.page_header_subtitle': 'נלחמים בזירה הדיגיטלית',
+
+  'share.kudos_cta': 'הגב/י על פוסט נוסף',
+  'share.kudos_cta_final': 'לא סיימתי להיום, עוד פוסט!',
+  'report.kudos_cta': 'פוסט נוסף לדיווח',
+  'report.kudos_cta_final': 'לא סיימתי להיום, עוד פוסט!',
+  'share.kudos_subtitle': '.מצאנו עבורכם עוד תוכן להפיץ, לחצו כאן',
+  'report.kudos_subtitle': 'מצאנו עבורכם עוד תוכן לדיווח',
+
+  'share.alert_title': 'מפיצים פוסטים פרו-ישראליים ברשתות החברתיות',
+  'report.alert_title': 'מדווחים על פוסטים אנטי-ישראליים ברשתות החברתיות',
+  'share.alert_body': 'הגבירו את החשיפה לפוסטים התומכים בישראל באמצעות תגובה מוצעת',
+  'report.alert_body': 'סייעו במניעת הפצה של תוכן שקרי או אנטי-ישראלי באמצעות דיווח',
+  'share.action_btn': 'הגב/י',
+  'report.action_btn': 'דווח/י',
+  'share.homepage_card_title': 'שתפו תגובה',
+  'report.homepage_card_title': 'דווחו על תוכן',
+
+  'report.modal_title': 'איך לדווח על פוסט ב',
+  'share.modal_title': 'איך לשתף פוסט ב',
+
+  'report.insturctions_go_to_post_btn': 'דווח/י ב',
+  'share.insturctions_go_to_post_btn': 'הגב/י ב',
+
+  insturctions_do_not_show_again_checbox_label: 'הבנתי, אל תציג לי שוב',
+  insturctions_do_not_show_again_checkbox_label_description:
+    'אנחנו נעתיק את טקסט ההודעה באופן אוטומטי',
+
+  change_platform_btn_title: 'שנה פלטפורמה',
+
+  'share.instagram.tutorial_dialog_title': 'יצירת תגובה לפוסט באינסטגרם בקלות:',
+  'share.facebook.tutorial_dialog_title': 'יצירת תגובה לפוסט בפייסבוק בקלות:',
+  'share.tiktok.tutorial_dialog_title': 'יצירת תגובה לפוסט בטיקטוק בקלות:',
+
+  'share.instagram.tutorial_dialog_copy_to_clipboard': 'העתיק/י התגובה',
+  'share.tiktok.tutorial_dialog_copy_to_clipboard': 'העתיק/י התגובה',
+  'share.facebook.tutorial_dialog_copy_to_clipboard': 'העתיק/י התגובה',
+  'share.instagram.tutorial_dialog_paste_in_platform':
+    "לחצו על הכפתור 'הגב/י באינסטגרם' כדי לעבור ואינסטגרם ולהגיב בתגובה",
+  'share.tiktok.tutorial_dialog_paste_in_platform':
+    "לחצו על הכפתור 'הגב/י בטיקטוק כדי לעבור לטיקטוק ולהגיב בתגובה",
+  'share.facebook.tutorial_dialog_paste_in_platform':
+    "לחצו על הכפתור 'הגב/י בפייסבוק' כדי לעבור לפייסבוק ולהגיב בתגובה",
+  'share.instagram.tutorial_dialog_proposed_text_copy_instructions':
+    'לחצו על הכפתור ׳העתיק/י התגובה׳ להעתקה מהירה של הטקסט המוצע',
+  'share.tiktok.tutorial_dialog_proposed_text_copy_instructions':
+    'לחצו על הכפתור ׳העתיק/י התגובה׳ להעתקה מהירה של הטקסט המוצע',
+  'share.facebook.tutorial_dialog_proposed_text_copy_instructions':
+    ' לחצו על הכפתור ׳העתיק/י התגובה׳ להעתקה מהירה של הטקסט המוצע',
+
+  'share.instagram.tutorial_dialog_subtitle': 'הקש/י על ההודעה למטה כדי להעתיק אותה',
+  'report.instagram.tutorial_dialog_title': 'איך לדווח על פוסט באינסטגרם',
+  'report.facebook.tutorial_dialog_title': 'איך לדווח על פוסט בפייסבוק',
+  'report.tiktok.tutorial_dialog_title': 'איך לדווח על פוסט בטיקטוק',
+
+  'share.twitter.tutorial_dialog_title': 'הצעת צוות הכותבים שלנו',
+  'report.twitter.tutorial_dialog_title': 'איך לדווח על פוסט בטוויטר',
+
+  'report.instagram.openPost': 'פתחו את הפוסט המסית באמצעות הכפתור למטה.',
+  'report.instagram.tapThreeDots': 'לחצו על האייקון (שלוש נקודות) הממוקם בחלק העליון של הפוסט.',
+  'report.instagram.clickReport': "ביחרו 'דיווח'.",
+  'report.instagram.selectType': "בחרו 'דברי שטנה או סמלי שטנה' בתור סיבה ולחצו על 'שליחת דוח'.",
+  'report.instagram.clickClose': "לחצו 'סגור'.",
+
+  menu_title: 'תפריט',
+  menu_item_home: 'בית',
+  menu_item_about: 'אודות',
+  menu_item_stay_updated: 'השארו מעודכנים',
+  menu_item_share_feedback: 'השאירו משוב',
+  kudos_title: 'תרמת למאמץ ההסברה!',
+  kudos_subtitle: 'שדה הקרב של מאמץ ההסברה העולמי צריך עוד גיבורים כמוך, אבל המאמץ לא הסתיים.',
+  kudos_progress_title: 'מאמץ יומי',
+
+  get_notified_title: 'הצטרפו למאמץ',
+  get_notified_subtitle:
+    'הקרב על דעת הקהל העולמית הוא מאמץ מתמשך. נשמח לתזכר אותך לקדם פוסטים פרו ישראלים דרך אפליקציית Whatsapp או באימייל',
+  get_notified_whatsapp: 'צרפו אותי ל Whatsapp',
+  get_notified_email: 'תתזכרו אותי במייל',
+  get_notified_dismiss: 'לא, אני רק רוצה לטעון פוסט נוסף',
+  cookie_consent_description:
+    "מילות ברזל משתמשת בעוגיות באתר זה. על מנת לספק חוויית גלישה משופרת ולצורך מטרות שיווק, אנחנו זוכרים ומאחסנים מידע אודות איך אתה משתמש בפלטפורמה. לקבלת אישור לשימוש בעוגיות, לחץ על 'אישור כל העוגיות' והמשך לגלוש כרגיל.",
+  cookie_consent_accept: 'אישור כל העוגיות',
+  cookie_consent_reject: 'סירוב כל העוגיות',
+  how_it_works: 'איך זה עובד?',
+  how_it_works_step_1_title: 'צופים',
+  how_it_works_step_2_title: 'מגיבים',
+  how_it_works_step_3_title: 'משפיעים!',
+  how_it_works_step_1_description:
+    'הכלי יציף לכם תוכן פרו-ישראלי שנאסף על ידי צוות המומחים שלנו לרשתות חברתיות.',
+  how_it_works_step_2_description: 'מקבלים טקסט שהוכן על ידי צוות הכותבים שלנו, ומגיבים לפוסט.',
+  how_it_works_step_3_description:
+    'ככל שכל פוסט יקבל יותר תגובות מאנשים שונים, הוא יקבל יותר חשיפה ויגיע ליותר אנשים.',
+  from_the_news_title: 'כתבו עלינו',
+} as const;

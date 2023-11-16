@@ -1,0 +1,19 @@
+type ClassValue = string | undefined | null | boolean | { [key: string]: boolean };
+
+export function cn(...args: ClassValue[]): string {
+  const classes = [];
+
+  for (const arg of args) {
+    if (typeof arg === 'string') {
+      classes.push(arg);
+    } else if (typeof arg === 'object') {
+      for (const key in arg) {
+        if (Object.prototype.hasOwnProperty.call(arg, key) && arg[key]) {
+          classes.push(key);
+        }
+      }
+    }
+  }
+
+  return classes.join(' ');
+}

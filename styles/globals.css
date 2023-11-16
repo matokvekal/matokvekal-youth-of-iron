@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ultramarine-50: #f2f4ff;
+    --ultramarine-100: #e7eaff;
+    --ultramarine-200: #d2d7ff;
+    --ultramarine-300: #aeb5ff;
+    --ultramarine-400: #8187ff;
+    --ultramarine-500: #4e4eff;
+    --ultramarine-600: #3529fe;
+    --ultramarine-700: #2818e9;
+    --ultramarine-800: #2113c4;
+    --ultramarine-900: #1a108f; /* primary 30 */
+    --ultramarine-950: #0c086d;
+
+    --stratos-50: #e9f0ff;
+    --stratos-100: #d8e1ff;
+    --stratos-200: #b8c8ff;
+    --stratos-300: #8ea3ff;
+    --stratos-400: #616fff;
+    --stratos-500: #3d3eff;
+    --stratos-600: #2d1cff;
+    --stratos-700: #2611f1;
+    --stratos-800: #1f11c2;
+    --stratos-900: #1f1897;
+    --stratos-950: #110c4a; /* primary 60 */
+
+    --mirage-50: #f2f4fb;
+    --mirage-100: #e8ebf7;
+    --mirage-200: #d5daf0;
+    --mirage-300: #bbc1e6;
+    --mirage-400: #9fa3da;
+    --mirage-500: #8687ce;
+    --mirage-600: #736ebd;
+    --mirage-700: #635ca6;
+    --mirage-800: #514d86;
+    --mirage-900: #45436c;
+    --mirage-950: #161522; /* primary 80 */
+
+    --cyan-50: #eafffe;
+    --cyan-100: #cbfffd;
+    --cyan-200: #9efffe;
+    --cyan-300: #5bfdff;
+    --cyan-400: #0cf0ff; /* accent */
+    --cyan-500: #00d2e5;
+    --cyan-600: #00a8c0;
+    --cyan-700: #03859b;
+    --cyan-800: #0d6a7d;
+    --cyan-900: #105769;
+    --cyan-950: #033a49;
+
+    --selago-50: #f8f7fb;
+    --selago-100: #f2f0f7;
+    --selago-200: #e8e5f1; /* neutral 20 */
+    --selago-300: #d4cee4;
+    --selago-400: #bdb1d4;
+    --selago-500: #a491c1;
+    --selago-600: #9077b0;
+    --selago-700: #7e659c;
+    --selago-800: #6a5483;
+    --selago-900: #58466c;
+    --selago-950: #392d48;
+
+    --haze-50: #f5f6f8; /* neutral 10 */
+    --haze-100: #eceef2;
+    --haze-200: #d6dae1;
+    --haze-300: #b1bac8;
+    --haze-400: #8796a9;
+    --haze-500: #68798f;
+    --haze-600: #536176;
+    --haze-700: #444f60;
+    --haze-800: #3b4351;
+    --haze-900: #343a46;
+    --haze-950: #23272e;
+
+    --background: var(--haze-50);
+    --foreground: var(--mirage-950);
+
+    --primary: var(--ultramarine-900);
+    --primary-foreground: white;
+
+    --secondary: var(--ultramarine-800);
+    --secondary-foreground: var(--haze-500);
+
+    --accent: var(--cyan-400);
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --muted: var(--mirage-700);
+    --muted-foreground: var(--haze-500);
+
+    --border: var(--mirage-200);
+    --ring: var(--mirage-200);
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --input: 214.3 31.8% 91.4%;
+    --radius: 0.3rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .card {
+    @apply rounded-2xl bg-card text-mirage-950 shadow-md ring-1 ring-mirage-200;
+  }
+}
