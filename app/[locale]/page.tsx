@@ -27,7 +27,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       url: `/${Intent.Share}/${Platform.Twitter}`,
       id: 'main_reply',
       icon: (
-        <div className='flex w-full flex-col  h-full w-32 flex-grow items-center justify-center rounded-xl bg-blue-100 py-6'>
+        <div className='flex h-full w-32  w-full flex-grow flex-col items-center justify-center rounded-xl bg-blue-100 py-6'>
           <Image alt='Thumbs up emoji' src='/iconTumbUp.png' width={42} height={42} />
         </div>
       ),
@@ -38,7 +38,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       url: `/${Intent.Report}/${Platform.Twitter}`,
       id: 'main_report',
       icon: (
-        <div className='flex w-full flex-col  h-full w-32 flex-grow items-center justify-center rounded-xl bg-red-100 py-6'>
+        <div className='flex h-full w-32  w-full flex-grow flex-col items-center justify-center rounded-xl bg-red-100 py-6'>
           <Image alt='Thumbs up emoji' src='/iconTumbDown.png' width={42} height={42} />
         </div>
       ),
@@ -79,11 +79,9 @@ export default async function Home({ params: { locale } }: { params: { locale: s
               <p className='mx-auto   mb-9 max-w-[500px] px-4  text-lg'>{t('description')}</p>
 
               <div className='flex w-full flex-grow flex-col gap-4 md:max-w-3xl lg:flex-row lg:justify-center'>
-
                 {buttons.map(({ url, title, body, id, icon }) => (
                   <Link id={id} key={url} className='w-full' href={url}>
-                             
-                    <div className='flex h-full flex-col  w-full flex-grow gap-4 rounded-2xl bg-white  p-4 shadow-md md:max-w-3xl lg:justify-center'>
+                    <div className='flex h-full w-full  flex-grow flex-col gap-4 rounded-2xl bg-white  p-4 shadow-md md:max-w-3xl lg:justify-center'>
                       {icon}
                       <div className='flex w-full flex-col items-center justify-center '>
                         <h3 className='flex items-center gap-2 text-lg font-semibold'>{title}</h3>
@@ -135,9 +133,40 @@ export default async function Home({ params: { locale } }: { params: { locale: s
           {/* <h2 className='mb-8 text-lg font-bold'>{t('from_the_news_title')}</h2> */}
           <NewsLogos />
         </section>
-        <section className='relative z-20 mx-auto flex w-full max-w-7xl justify-center lg:px-24'>
-          <LanguageSwitcher context='home' />
+        <section className='relative z-20 w-full pb-16 text-center sm:px-8 xl:px-0'>
+          <h2 className='mb-8 text-lg font-bold'>{t('in_cooperate_with')}</h2>
         </section>
+        {/* <section className='relative z-20 mx-auto flex w-full max-w-7xl justify-center lg:px-24'>
+          <LanguageSwitcher context='home' />
+        </section> */}
+        {/* <section className='relative z-20 mx-auto flex w-full max-w-7xl justify-center lg:px-24'>
+        <h2 className='mb-8 text-lg font-bold'>{t('words_of_irons')}</h2>
+          <Image alt='Thumbs up emoji' src='/words_of_iron.png' width={32} height={22} />
+
+      
+        </section> */}
+        <section className='relative z-20 mx-auto flex w-full max-w-7xl items-center justify-center lg:px-24'>
+          <h2 className='mb-8 text-lg font-bold text-blue-500'>{t('words_of_irons')}</h2>
+          <div className='-translate-y-1 transform'>
+            <Image alt='Thumbs up emoji' src='/words_of_iron.png' width={32} height={22} />
+          </div>
+        </section>
+        <section className='relative z-20 w-full pb-16 text-center sm:px-8 xl:px-0'>
+          <Image alt='ri3_logo' src='/ri3_logo.png' width={320} height={131} />
+        </section>
+        <footer className='mt-90 mx-50 mb-90'>
+          <section className='mx-auto flex h-16 w-full max-w-[calc(100%-10px)] items-center justify-evenly rounded-b-3xl bg-white'>
+            <a href='/join-us' className='text-blue-600'>
+              הצטרפו אלינו
+            </a>
+            <a href='/leave-message' className='text-blue-600'>
+              השאירו משוב
+            </a>
+            <a href='/english' className='text-blue-600'>
+              English
+            </a>
+          </section>
+        </footer>
       </div>
     </main>
   );

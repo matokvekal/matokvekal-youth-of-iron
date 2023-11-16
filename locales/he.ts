@@ -144,4 +144,5 @@ export default {
   how_it_works_step_3_description:
     'ככל שכל פוסט יקבל יותר תגובות מאנשים שונים, הוא יקבל יותר חשיפה ויגיע ליותר אנשים.',
   from_the_news_title: 'כתבו עלינו',
+  in_cooperate_with: 'בשיתוף פעולה עם',
 } as const;

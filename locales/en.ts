@@ -130,4 +130,6 @@ export default {
   how_it_works_step_3_description:
     'The more people comment, the post will have better exposure on social media and reach more people',
   from_the_news_title: 'מקומות שכתבו עלינו',
+  in_cooperate_with: 'בשיתוף פעולה עם',
+  words_of_irons: 'מילות ברזל',
 } as const;
