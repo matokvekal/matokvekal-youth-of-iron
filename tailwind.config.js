@@ -15,6 +15,9 @@ module.exports = {
         blue: {
           '100': '#0CFFA8', // Replace with your desired HEX code
         },
+        red: {
+          '100': '#FF004D', // Replace with your desired HEX code
+        },
         selago: {
           50: 'hsl(255, 33%, 98%)',
           100: 'hsl(257, 30%, 95%)',

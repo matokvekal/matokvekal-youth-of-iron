@@ -19,7 +19,7 @@ export default function NewsLogos() {
           },
           {
             id: 'ynet',
-            logo: '/logo_ynet.svg',
+            logo: '/calcalist.svg',
             link: 'https://www.ynet.co.il/digital/article/byhpq80bp',
           },
           {
@@ -36,17 +36,17 @@ export default function NewsLogos() {
           },
           {
             id: 'ctech',
-            logo: '/logo_ctech.png',
+            logo: '/politico.png',
             link: 'https://www.calcalistech.com/ctechnews/article/bj9qt8hzt#:~:text=Words%20of%20Iron%20is%20one,and%20tech%20companies%20called%20%27IsraelTechGuards.',
           },
           {
             id: 'israel21c',
-            logo: '/logo_israel21c.svg',
+            logo: '/themarker.svg',
             link: 'https://www.israel21c.org/with-workers-called-to-battle-israeli-firms-rally-support/',
           },
           {
             id: 'ynet_eng',
-            logo: '/logo_ynet-eng.png',
+            logo: '/calcalist.png',
             link: 'https://www.ynetnews.com/magazine/article/sy0ojiig6',
           },
         ];

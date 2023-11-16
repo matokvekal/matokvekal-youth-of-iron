@@ -38,29 +38,29 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       url: `/${Intent.Report}/${Platform.Twitter}`,
       id: 'main_report',
       icon: (
-        <div className='flex aspect-square h-full w-32 items-center justify-center rounded-xl bg-red-100 py-6'>
-          <Image alt='Thumbs up emoji' src='/thumbs_down_animated.png' width={42} height={42} />
+        <div className='flex w-full flex-col  h-full w-32 flex-grow items-center justify-center rounded-xl bg-red-100 py-6'>
+          <Image alt='Thumbs up emoji' src='/iconTumbDown.png' width={42} height={42} />
         </div>
       ),
     },
   ];
 
   const howItWorksSteps = [
-    {
-      title: t('how_it_works_step_1_title'),
-      description: t('how_it_works_step_1_description'),
-      icon: <IconVisible />,
-    },
+    // {
+    //   title: t('how_it_works_step_1_title'),
+    //   description: t('how_it_works_step_1_description'),
+    //   icon: <IconVisible />,
+    // },
     {
       title: t('how_it_works_step_2_title'),
       description: t('how_it_works_step_2_description'),
-      icon: <IconEdit />,
+      // icon: <IconEdit />,
     },
-    {
-      title: t('how_it_works_step_3_title'),
-      description: t('how_it_works_step_3_description'),
-      icon: <IconShare2 />,
-    },
+    // {
+    //   title: t('how_it_works_step_3_title'),
+    //   description: t('how_it_works_step_3_description'),
+    //   icon: <IconShare2 />,
+    // },
   ];
 
   return (
@@ -117,9 +117,9 @@ export default async function Home({ params: { locale } }: { params: { locale: s
             {howItWorksSteps.map((step) => {
               return (
                 <div key={step.title}>
-                  <div className='mb-4 inline-flex h-10 w-10 items-start  justify-start rounded-full bg-indigo-950 p-2'>
+                  {/* <div className='mb-4 inline-flex h-10 w-10 items-start  justify-start rounded-full bg-indigo-950 p-2'>
                     <div className='h-6 w-6'>{step.icon}</div>
-                  </div>
+                  </div> */}
                   <div className='mb-1 text-sm font-bold leading-normal tracking-tight text-zinc-700'>
                     {step.title}
                   </div>
@@ -132,7 +132,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
           </div>
         </section>
         <section className='relative z-20 w-full pb-16 text-center sm:px-8 xl:px-0'>
-          <h2 className='mb-8 text-lg font-bold'>{t('from_the_news_title')}</h2>
+          {/* <h2 className='mb-8 text-lg font-bold'>{t('from_the_news_title')}</h2> */}
           <NewsLogos />
         </section>
         <section className='relative z-20 mx-auto flex w-full max-w-7xl justify-center lg:px-24'>

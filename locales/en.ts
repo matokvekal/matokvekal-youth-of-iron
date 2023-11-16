@@ -119,15 +119,15 @@ export default {
     "Words of Iron uses cookies on this website. To deliver a better browsing experience, and for marketing purposes, we remember and store information about how you use the platform. To accept cookies, click 'Accept All Cookies' and continue browsing as normal.",
   cookie_consent_accept: 'Accept All Cookies',
   cookie_consent_reject: 'Reject All Cookies',
-  how_it_works: 'How it works?',
+  how_it_works: 'איך זה עובד?',
   how_it_works_step_1_title: 'View',
-  how_it_works_step_2_title: 'Comment',
+  how_it_works_step_2_title: 'מקומות שכתבו עלינו',
   how_it_works_step_3_title: 'Make an impact!',
   how_it_works_step_1_description:
     'The tool will show you Pro-Israel content that was collected by our team of social media experts',
   how_it_works_step_2_description:
-    'Get a pre-set text written by our team, copy response and comment on the post',
+    '“In an effort to combat the spread of this false information, one of the most imperative projects that has emerged is Words of Iron.״',
   how_it_works_step_3_description:
     'The more people comment, the post will have better exposure on social media and reach more people',
-  from_the_news_title: 'In the news',
+  from_the_news_title: 'מקומות שכתבו עלינו',
 } as const;
